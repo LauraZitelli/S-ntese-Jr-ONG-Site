@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<html  xml:lang="pt" lang="pt">
+ 
+<head>
+	<meta charset="UTF-8">
+	<title>Menu Horizontal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<style>
+
+	.fonte{
+		font-family: 'Clicker Script', cursive;
+		font-size: 3em;
+	}
+
+	.textinho{
+		font-family: 'Tahoma', sans-serif;
+		font-size: 1.25em;
+	}
+
+	.caixinhas{
+		background-color: lightgray;
+		padding :0!important;
+		margin: 0 8px;
+		width: 31.85%!important;
+		border-radius: 20px;
+	}
+
+	.imagem1{
+		animation-name: slide1;
+		animation-duration: 6s;
+	}
+	.imagem2{
+		animation-name: slide2;
+		animation-duration: 6s;
+	}
+	.imagem3{
+		animation-name: slide3;
+		animation-duration: 6s;
+	}
+
+	@keyframes slide1 {
+		0% {display: block;}
+		33% {display: none;}
+		66% {display: none;}
+	}
+	@keyframes slide2 {
+		0% {display: none;}
+		33% {display: block;}
+		66% {display: none;}
+	}
+	@keyframes slide3 {
+		0% {display: none;}
+		33% {display: none;}
+		66% {display: block;}
+	}
+
+	.preto{
+		background-color: rgba(30,30,30,1);
+		color: white;
+	}
+</style>
+	<!--<style type="text/css">
+	
+		body {
+			padding:0px;
+			margin:0px;
+		}
+ 
+		#menu ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			width: 100%;
+			background-color:#EDEDED;
+			list-style:none;
+			font:100% Tahoma;
+		}
+ 
+		#menu ul li { display: inline; }
+ 
+		#menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 2px 10px;
+			float:left;
+		}
+ 
+		#menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom:3px solid #EA0000;
+		}
+
+
+	</style>-->
+</head>
+ 
+<body>
+	<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">QUEM SOMOS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">CÂOPANHA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">CUIDADOS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">FINAIS FELIZES</a>
+    </div>
+        <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">CONTRIBUIÇÕES</a>
+    </div>
+  </div>
+</div>
+
+
+<!--<div class="container"><div class="row"><div class="col-lg-12">-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active"  data-interval="5000">
+        <img src="cachorro1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item"  data-interval="5000">
+      <img src="cachorro2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item"  data-interval="5000">
+      <img src="cachorro3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+<!--</div></div></div>-->
+
+
+<!--<div class="mySlides w3-display-container w3-center imagem1">
+    <img src="1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center imagem2">
+    <img src="2.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center imagem3">
+    <img src="3.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">  
+    </div>
+  </div>-->
+
+   <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter caixinhas">
+      <h3 class="fonte">Adote</h3>
+      <p class="textinho">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.vhdxcfxjfjxdxxjdgfgxjyxxfjjxff xgfxxgfggfxxjjxgjxjxfxfxjjjxjxsrtdrxdytxyjxxxhxf</p>
+    </div>
+    <div class="w3-quarter caixinhas">
+      <h3 class="fonte">Apadrinhe</h3>
+      <p class="textinho">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter caixinhas">
+      <h3 class="fonte">Doações</h3>
+      <p class="textinho">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <footer class="container-fluid preto">
+  	<div class="row justify-content-md-center">
+  		<div class="col">
+  			Logo
+  			<p>Contato: <a href="malito:amigosdobem@amigosdobem.org.br">amigosdobem@amigosdobem.org.br</a>
+  		</div>
+  		<div class="col-md-auto">
+  			transição
+  		</div>
+  		<div class="col col-lg-2">
+  			parceiros
+  		</div>
+  	</div>
+  </footer>
+	<!--<div id="menu">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Quem Somos</a></li>
+			<li><a href="">Cãopanha</a></li>
+			<li><a href="">Cuidados</a></li>
+			<li><a href="">Finais Felizes</a></li>
+			<li><a href="">Contribuição</a></li>
+		</ul>
+	</div>->
+</body>
+</html>
